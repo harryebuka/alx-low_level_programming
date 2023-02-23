@@ -8,10 +8,14 @@
 
 void print_alphabet_x10(void)
 {
-	int newAlphas;
+	int newAlphas, alphas;
 
 	for (newAlphas = 0; newAlphas < 10; newAlphas++)
 	{
-		print_alphabet();
+		for (alphas = 97; alphas < 123; alphas++)
+		{
+			_putchar(alphas);
+		}
+		_putchar('\n');
 	}
 }
