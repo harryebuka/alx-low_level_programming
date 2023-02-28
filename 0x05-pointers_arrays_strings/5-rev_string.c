@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "main.h"
 /**
  *rev_string - update value.
