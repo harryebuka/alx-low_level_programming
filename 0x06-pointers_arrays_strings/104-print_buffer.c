@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  * print_buffer - prints the content of size bytes of the buffer pointed by b
