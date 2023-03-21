@@ -1,1 +1,4 @@
-#define ABS(x) ((x) < 0 ? ((-1) * (x)) : (x))
+#ifndef HARR
+#define HARR
+#define ABS(x) ((x) < 0 ? -(x) : (x))
+#endif
